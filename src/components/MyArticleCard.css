@@ -1,0 +1,74 @@
+.edit-button{
+   background-color: rgb(216, 76, 11);
+   border: none;
+   color: white;
+   margin-top: 12px;
+}
+
+.edit-button:hover{
+    background-color: rgba(216, 76, 11, 0.349);
+}
+
+.delete-button{
+    background-color: rgba(215, 46, 46);
+    color: white;
+    border: none;
+    margin-top: 12px;
+
+}
+
+.delete-button:hover{
+    background-color: rgba(215, 46, 46, 0.36);
+}
+
+.myblogscontainer{
+    width: 65%;
+}
+
+
+.myblogscontainer img{
+    min-height: 180px;
+}
+
+.myblogscontainer span{
+    margin: 10px 0;
+}
+
+@media screen and (max-width:1050px){
+    .article-container{
+        flex-direction: column-reverse;
+        height: fit-content;
+        width: 50% !important;
+    }
+    .text-content{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .image-content{
+        height: 180px;
+        width: 100%;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    span{
+        margin: 5px 0 8px 0;
+    }
+
+    button{
+       margin-top: 4px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .article-container{
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width:500px){
+    .article-container{
+        width: 90% !important;
+    }
+}

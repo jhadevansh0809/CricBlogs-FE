@@ -1,0 +1,43 @@
+.delete-container{
+    width: 50%;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 50%;
+    margin:20px auto;
+    height:fit-content;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: contain;
+    background-color: rgb(31, 28, 28);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.delete-container h3{
+    color: white;
+}
+
+.delete-container button{
+    margin-right: 20px;
+}
+
+
+@media screen and (max-width:1050px){
+    .delete-container{
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width:700px){
+    .delete-container{
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width:500px){
+    .delete-container{
+        width: 90% !important;
+    }
+}
